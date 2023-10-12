@@ -1,0 +1,758 @@
+[
+  {
+    "name": "BERTje",
+    "lang": "dutch",
+    "type": "bert",
+    "size": "base",
+    "rer": 0.0,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9779665216673091,
+        "rer": 0.0,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8613868018354045,
+        "rer": 0.0,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.658602554470323,
+        "rer": 0.0,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6578947368421053,
+        "rer": 0.0,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.6199999999999999,
+        "rer": 0.0,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8518548715858133,
+        "rer": 0.0,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9327338129496404,
+        "rer": 0.0,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.5879923172513564,
+        "rer": 0.0,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7032335065067017,
+        "rer": 0.0,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RobBERT<sub>v1</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "base",
+    "rer": -0.16269669311937515,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9807196740267606,
+        "rer": 0.124953142571533,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8345512136164217,
+        "rer": -0.19360052703723807,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6064613072877536,
+        "rer": -0.1527288732394363,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5756578947368421,
+        "rer": -0.24038461538461542,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.564,
+        "rer": -0.14736842105263137,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8329800244598451,
+        "rer": -0.12740781507980192,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.893615107913669,
+        "rer": -0.5815508021390408,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.607882535615361,
+        "rer": 0.048276328808507185,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.6455246931781196,
+        "rer": -0.19445865552165276,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RobBERT<sub>v2</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "base",
+    "rer": 0.016408198171984863,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9815401134298771,
+        "rer": 0.16218917905784713,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8670089423576908,
+        "rer": 0.04055992211946724,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6405709992486852,
+        "rer": -0.05281690140845052,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6583881578947368,
+        "rer": 0.0014423076923074651,
+        "best": true
+      },
+      "copanl": {
+        "score": 0.5811999999999999,
+        "rer": -0.10210526315789448,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8461883408071749,
+        "rer": -0.03824986241056716,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9323741007194245,
+        "rer": -0.005347593582889054,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6372657998885602,
+        "rer": 0.11959360152821352,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7098835669327851,
+        "rer": 0.02240839370982961,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RobBERT<sub>2022</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "base",
+    "rer": 0.03593449179608913,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.981782390837509,
+        "rer": 0.17318505560414654,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8718739732320703,
+        "rer": 0.07565781278787631,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6368144252441773,
+        "rer": -0.06382042253521103,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6518092105263158,
+        "rer": -0.017788461538461586,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.5816,
+        "rer": -0.10105263157894706,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8563799429270281,
+        "rer": 0.030544854155200807,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.935431654676259,
+        "rer": 0.040106951871655916,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6657701338351385,
+        "rer": 0.18877758799277677,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7025805250793896,
+        "rer": -0.002200320594234473,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "mBERT<sub>cased</sub>",
+    "lang": "multilingual",
+    "type": "bert",
+    "size": "base",
+    "rer": -0.05758015945584419,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9793403446946755,
+        "rer": 0.06235161814319612,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8741535233814928,
+        "rer": 0.09210321755168283,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6848985725018782,
+        "rer": 0.077024647887324,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6202302631578946,
+        "rer": -0.11009615384615423,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.55,
+        "rer": -0.18421052631578894,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8427231960864248,
+        "rer": -0.061640066042928154,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9046762589928058,
+        "rer": -0.41711229946524275,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.5693451257877636,
+        "rer": -0.04525932948432154,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7235968684556243,
+        "rer": 0.06861745646963502,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "XLM-R<sub>base</sub>",
+    "lang": "multilingual",
+    "type": "roberta",
+    "size": "base",
+    "rer": -0.002734697300705845,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9810225207863003,
+        "rer": 0.1386979882543996,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8763389077271155,
+        "rer": 0.10786928005193441,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6650638617580766,
+        "rer": 0.018926056338028352,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6024671052631579,
+        "rer": -0.16201923076923075,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.518,
+        "rer": -0.26842105263157845,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.854790052996331,
+        "rer": 0.019812878370941145,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9303057553956835,
+        "rer": -0.036096256684493344,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6019853735964737,
+        "rer": 0.033963095667937426,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.739633390585758,
+        "rer": 0.122654965695709,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "mDeBERTaV3<sub>base</sub>",
+    "lang": "multilingual",
+    "type": "debertav3",
+    "size": "base",
+    "rer": 0.12802695724662408,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9819778646550301,
+        "rer": 0.18205672872673018,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8851702627380649,
+        "rer": 0.1715815031871556,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6955672426746806,
+        "rer": 0.10827464788732388,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5868421052631579,
+        "rer": -0.20769230769230762,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.6948,
+        "rer": 0.19684210526315804,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8891561353444761,
+        "rer": 0.25178866263070976,
+        "best": true
+      },
+      "dbrd": {
+        "score": 0.9349820143884893,
+        "rer": 0.03342245989304715,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6392341588975183,
+        "rer": 0.1243710828504706,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7897699430834085,
+        "rer": 0.2915977324733293,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "XLM-R<sub>large</sub>",
+    "lang": "multilingual",
+    "type": "roberta",
+    "size": "large",
+    "rer": 0.1441223083415642,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9838004515169871,
+        "rer": 0.26477570910909065,
+        "best": true
+      },
+      "sonar-ne": {
+        "score": 0.9026210700143797,
+        "rer": 0.2974772151928262,
+        "best": true
+      },
+      "wicnl": {
+        "score": 0.7313298271975958,
+        "rer": 0.2130281690140845,
+        "best": true
+      },
+      "dpr": {
+        "score": 0.6037828947368421,
+        "rer": -0.15817307692307714,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.522,
+        "rer": -0.25789473684210473,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8880146759070525,
+        "rer": 0.2440836543753434,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.941636690647482,
+        "rer": 0.1323529411764689,
+        "best": true
+      },
+      "dalc": {
+        "score": 0.6661645832328288,
+        "rer": 0.1897349715907204,
+        "best": true
+      },
+      "squadnl": {
+        "score": 0.8135463391478556,
+        "rer": 0.3717159283807254,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "BERT<sub>base</sub>",
+    "lang": "english",
+    "type": "bert",
+    "size": "base",
+    "rer": -0.427837700955821,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9736110346346567,
+        "rer": -0.1976758715481719,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8186343563007515,
+        "rer": -0.30842983280630176,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.5821187077385425,
+        "rer": -0.22403169014084479,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.594078947368421,
+        "rer": -0.18653846153846176,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.5136000000000001,
+        "rer": -0.27999999999999936,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.823481451284142,
+        "rer": -0.19152449091909696,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.7955935251798562,
+        "rer": -2.038770053475941,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.5216000479608136,
+        "rer": -0.1611432797748269,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.6253543729640307,
+        "rer": -0.26242562839874517,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RoBERTa<sub>base</sub>",
+    "lang": "english",
+    "type": "roberta",
+    "size": "base",
+    "rer": -0.2556145859489499,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9765376355927537,
+        "rer": -0.06485068099462787,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8234913665556123,
+        "rer": -0.27338980545556346,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6106686701728024,
+        "rer": -0.14040492957746475,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5879934210526316,
+        "rer": -0.20432692307692313,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.5284,
+        "rer": -0.24105263157894696,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8226253567060742,
+        "rer": -0.1973032471106222,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.8655575539568346,
+        "rer": -0.9986631016042802,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.5222005548483859,
+        "rer": -0.1596857659644868,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.6970446822065759,
+        "rer": -0.020854188177633848,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "DeBERTaV3<sub>base</sub>",
+    "lang": "english",
+    "type": "debertav3",
+    "size": "base",
+    "rer": -0.016235997044724077,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9793981608942239,
+        "rer": 0.0649756341371982,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8637862041302163,
+        "rer": 0.017310056521188444,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6441773102930128,
+        "rer": -0.042253521126760285,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5712171052631579,
+        "rer": -0.2533653846153847,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.542,
+        "rer": -0.20526315789473637,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8646147574398695,
+        "rer": 0.08613098514034079,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9229316546762589,
+        "rer": -0.14572192513369298,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6024245550730271,
+        "rer": 0.03502905024825831,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7913833309957901,
+        "rer": 0.2970342893210719,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "BERT<sub>large</sub>",
+    "lang": "english",
+    "type": "bert",
+    "size": "large",
+    "rer": -0.3512530883932572,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9753152359451572,
+        "rer": -0.12032987629639069,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8254933751791018,
+        "rer": -0.25894667413763317,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.5717505634861008,
+        "rer": -0.2544014084507038,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5577302631578946,
+        "rer": -0.29278846153846194,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.5016,
+        "rer": -0.3115789473684205,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8290256828373421,
+        "rer": -0.15410016510731928,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.8259892086330936,
+        "rer": -1.5868983957219296,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.5557221295634446,
+        "rer": -0.0783242377244675,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.672396610210613,
+        "rer": -0.10390962919398783,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RoBERTa<sub>large</sub>",
+    "lang": "english",
+    "type": "roberta",
+    "size": "large",
+    "rer": -0.14053210237637906,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.979381641980067,
+        "rer": 0.06422591528176114,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8443287158936459,
+        "rer": -0.12306249453607654,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.5909842223891811,
+        "rer": -0.1980633802816898,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.578125,
+        "rer": -0.2331730769230771,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.5208,
+        "rer": -0.261052631578947,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8392580513656747,
+        "rer": -0.08503026967528915,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.8898381294964028,
+        "rer": -0.6377005347593621,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.5929136145465266,
+        "rer": 0.011944673609818546,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7617329716424002,
+        "rer": 0.19712287747545032,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "DeBERTaV3<sub>large</sub>",
+    "lang": "english",
+    "type": "debertav3",
+    "size": "large",
+    "rer": 0.1567073216590127,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9819117889984031,
+        "rer": 0.17905785330500712,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8764949904820114,
+        "rer": 0.10899531102851234,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.7020285499624344,
+        "rer": 0.12720070422535257,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6085526315789473,
+        "rer": -0.14423076923076938,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.7544000000000001,
+        "rer": 0.35368421052631616,
+        "best": true
+      },
+      "sicknl-nli": {
+        "score": 0.8874847125968202,
+        "rer": 0.24050632911392356,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9284172661870503,
+        "rer": -0.06417112299465466,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6396968836042396,
+        "rer": 0.12549418012776958,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.8468178012930508,
+        "rer": 0.483829198829657,
+        "best": true
+      }
+    }
+  }
+]
