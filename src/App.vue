@@ -22,12 +22,13 @@ import Leaderboard from "./components/Leaderboard.vue";
       <Button href="mailto:wietse.de.vries@rug.nl">📧 wietse.de.vries@rug.nl</Button>
     </div>
 
-    <h2 class="my-6 text-2xl font-semibold">Leaderboard</h2>
+    <h2 class="mt-6 mb-3 text-2xl font-semibold">Leaderboard</h2>
+    <p class="mt-3 mb-6">Models are ranked by the average error reduction relative to the BERTje baseline. Read the paper for explanation of this ranking method and the included tasks.</p>
     <div class="mb-6 overflow-scroll">
       <Leaderboard />
     </div>
 
-    <h2 class="my-6 text-2xl font-semibold">Citation</h2>
+    <h2 class="mt-6 mb-3 text-2xl font-semibold">Citation</h2>
     <p>
       Please use the following bibtex to cite the paper or the leaderboard. This bibtex will be updated when the
       proceedings of EMNLP 2023 are published in December.
