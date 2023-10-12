@@ -6,7 +6,7 @@ const props = defineProps(['href'])
   <a
     :href="href"
     target="_blank"
-    class="inline-block px-4 py-2 mr-1 border-2 rounded-md border-gray-400 font-medium hover:border-gray-500 text-gray-800"
+    class="inline-block px-4 py-2 mr-1 mb-1 border-2 rounded-md border-gray-400 font-medium hover:border-gray-500 text-gray-800"
   >
     <slot />
   </a>

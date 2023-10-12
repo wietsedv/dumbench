@@ -1,7 +1,3 @@
-all: build deploy
-
-build:
-	npm run build
-
-deploy:
+push:
+	git push
 	git subtree push --prefix dist origin gh-pages
