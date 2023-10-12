@@ -37,15 +37,15 @@ function renderScore(task) {
       <tr>
         <th></th>
         <th class="border-x-2">Avg</th>
-        <th class="border-x-2">POS</th>
-        <th class="border-x-2">NER</th>
-        <th class="border-x-2">WSD</th>
-        <th class="border-x-2">PR</th>
-        <th class="border-x-2">CR</th>
-        <th class="border-x-2">NLI</th>
-        <th class="border-x-2">SA</th>
-        <th class="border-x-2">ALD</th>
-        <th class="">QA</th>
+        <th class="border-x-2" title="Part-Of-Speech Tagging (Lassy)">POS</th>
+        <th class="border-x-2" title="Named Entity Recognition (SoNaR)">NER</th>
+        <th class="border-x-2" title="Word Sense Disambiguation (WiC-NL)">WSD</th>
+        <th class="border-x-2" title="Pronoun Resolution (DPR)">PR</th>
+        <th class="border-x-2" title="Causal Reasoning (COPA-NL)">CR</th>
+        <th class="border-x-2" title="Natural Language Inference (SICK-NL)">NLI</th>
+        <th class="border-x-2" title="Abusive Language Detection (DALC)">SA</th>
+        <th class="border-x-2" title="Sentiment Analysis (DBRD)">ALD</th>
+        <th class="" title="Question Answering (SQuAD-NL)">QA</th>
       </tr>
       <tr class="border-b-black">
         <th>Model</th>
