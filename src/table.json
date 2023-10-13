@@ -4,6 +4,7 @@
     "lang": "dutch",
     "type": "bert",
     "size": "base",
+    "model_id": "GroNLP/bert-base-dutch-cased",
     "rer": 0.0,
     "tasks": {
       "lassy-pos": {
@@ -58,6 +59,7 @@
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
+    "model_id": "pdelobelle/robBERT-base",
     "rer": -0.16269669311937515,
     "tasks": {
       "lassy-pos": {
@@ -112,6 +114,7 @@
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
+    "model_id": "pdelobelle/robbert-v2-dutch-base",
     "rer": 0.016408198171984863,
     "tasks": {
       "lassy-pos": {
@@ -166,6 +169,7 @@
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
+    "model_id": "DTAI-KULeuven/robbert-2022-dutch-base",
     "rer": 0.03593449179608913,
     "tasks": {
       "lassy-pos": {
@@ -216,10 +220,66 @@
     }
   },
   {
+    "name": "RobBERT<sub>2023</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "base",
+    "model_id": "FremyCompany/olm-bert-oscar-nl-step4",
+    "rer": 0.05707144538116174,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9813005891746049,
+        "rer": 0.15131825565412826,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8679516279610354,
+        "rer": 0.04736075794049244,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6856498873027798,
+        "rer": 0.0792253521126759,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5671052631578947,
+        "rer": -0.2653846153846158,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.6447999999999999,
+        "rer": 0.06526315789473691,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8662454137790461,
+        "rer": 0.09713813979086405,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.935521582733813,
+        "rer": 0.04144385026737896,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6372980817489885,
+        "rer": 0.11967195409730369,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7559410626627069,
+        "rer": 0.1776061560574912,
+        "best": false
+      }
+    }
+  },
+  {
     "name": "mBERT<sub>cased</sub>",
     "lang": "multilingual",
     "type": "bert",
     "size": "base",
+    "model_id": "bert-base-multilingual-cased",
     "rer": -0.05758015945584419,
     "tasks": {
       "lassy-pos": {
@@ -274,6 +334,7 @@
     "lang": "multilingual",
     "type": "roberta",
     "size": "base",
+    "model_id": "xlm-roberta-base",
     "rer": -0.002734697300705845,
     "tasks": {
       "lassy-pos": {
@@ -328,6 +389,7 @@
     "lang": "multilingual",
     "type": "debertav3",
     "size": "base",
+    "model_id": "microsoft/mdeberta-v3-base",
     "rer": 0.12802695724662408,
     "tasks": {
       "lassy-pos": {
@@ -382,6 +444,7 @@
     "lang": "multilingual",
     "type": "roberta",
     "size": "large",
+    "model_id": "xlm-roberta-large",
     "rer": 0.1441223083415642,
     "tasks": {
       "lassy-pos": {
@@ -436,6 +499,7 @@
     "lang": "english",
     "type": "bert",
     "size": "base",
+    "model_id": "bert-base-cased",
     "rer": -0.427837700955821,
     "tasks": {
       "lassy-pos": {
@@ -490,6 +554,7 @@
     "lang": "english",
     "type": "roberta",
     "size": "base",
+    "model_id": "roberta-base",
     "rer": -0.2556145859489499,
     "tasks": {
       "lassy-pos": {
@@ -544,6 +609,7 @@
     "lang": "english",
     "type": "debertav3",
     "size": "base",
+    "model_id": "microsoft/mdeberta-v3-base",
     "rer": -0.016235997044724077,
     "tasks": {
       "lassy-pos": {
@@ -598,6 +664,7 @@
     "lang": "english",
     "type": "bert",
     "size": "large",
+    "model_id": "bert-large-cased",
     "rer": -0.3512530883932572,
     "tasks": {
       "lassy-pos": {
@@ -652,6 +719,7 @@
     "lang": "english",
     "type": "roberta",
     "size": "large",
+    "model_id": "roberta-large",
     "rer": -0.14053210237637906,
     "tasks": {
       "lassy-pos": {
@@ -706,6 +774,7 @@
     "lang": "english",
     "type": "debertav3",
     "size": "large",
+    "model_id": "microsoft/deberta-v3-large",
     "rer": 0.1567073216590127,
     "tasks": {
       "lassy-pos": {
