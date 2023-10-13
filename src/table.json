@@ -1,6 +1,6 @@
 [
   {
-    "name": "BERTje",
+    "name": "BERTje<sub>base</sub>",
     "lang": "dutch",
     "type": "bert",
     "size": "base",
@@ -55,7 +55,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>v1</sub>",
+    "name": "RobBERT<sub>v1 base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>v2</sub>",
+    "name": "RobBERT<sub>v2 base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -165,7 +165,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2022</sub>",
+    "name": "RobBERT<sub>2022 base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -275,7 +275,7 @@
     }
   },
   {
-    "name": "mBERT<sub>cased</sub>",
+    "name": "mBERT<sub>cased base</sub>",
     "lang": "multilingual",
     "type": "bert",
     "size": "base",
@@ -385,7 +385,7 @@
     }
   },
   {
-    "name": "mDeBERTaV3<sub>base</sub>",
+    "name": "mDeBERTa<sub>v3 base</sub>",
     "lang": "multilingual",
     "type": "debertav3",
     "size": "base",
@@ -605,7 +605,7 @@
     }
   },
   {
-    "name": "DeBERTaV3<sub>base</sub>",
+    "name": "DeBERTa<sub>v3 base</sub>",
     "lang": "english",
     "type": "debertav3",
     "size": "base",
@@ -770,7 +770,7 @@
     }
   },
   {
-    "name": "DeBERTaV3<sub>large</sub>",
+    "name": "DeBERTa<sub>v3 large</sub>",
     "lang": "english",
     "type": "debertav3",
     "size": "large",
