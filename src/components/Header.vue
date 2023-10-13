@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-600 text-white">
+  <div class="bg-blue-700 text-white">
     <div class="container mx-auto px-4 py-4">
       <div class="flex items-center">
         <div class="flex-1">
