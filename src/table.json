@@ -55,7 +55,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>v1 base</sub>",
+    "name": "RobBERT<sub>v1&nbsp;base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>v2 base</sub>",
+    "name": "RobBERT<sub>v2&nbsp;base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -165,7 +165,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2022 base</sub>",
+    "name": "RobBERT<sub>2022&nbsp;base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -220,7 +220,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2023 base</sub>",
+    "name": "RobBERT<sub>2023&nbsp;base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -385,7 +385,7 @@
     }
   },
   {
-    "name": "mDeBERTa<sub>v3 base</sub>",
+    "name": "mDeBERTa<sub>v3&nbsp;base</sub>",
     "lang": "multilingual",
     "type": "debertav3",
     "size": "base",
@@ -605,7 +605,7 @@
     }
   },
   {
-    "name": "DeBERTa<sub>v3 base</sub>",
+    "name": "DeBERTa<sub>v3&nbsp;base</sub>",
     "lang": "english",
     "type": "debertav3",
     "size": "base",
@@ -770,7 +770,7 @@
     }
   },
   {
-    "name": "DeBERTa<sub>v3 large</sub>",
+    "name": "DeBERTa<sub>v3&nbsp;large</sub>",
     "lang": "english",
     "type": "debertav3",
     "size": "large",
