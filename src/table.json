@@ -220,7 +220,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2023</sub>",
+    "name": "RobBERT<sub>2023 base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
