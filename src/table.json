@@ -275,6 +275,116 @@
     }
   },
   {
+    "name": "RobBERT<sub>2023&nbsp;large</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "large",
+    "model_id": "FremyCompany/rl-bert-oscar-nl-step4",
+    "rer": 0.1229606829621504,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9828506139529761,
+        "rer": 0.22166687492190074,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8948861665361288,
+        "rer": 0.241675144533825,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.633809166040571,
+        "rer": -0.07262323943661952,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.5741776315789473,
+        "rer": -0.2447115384615388,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.6292,
+        "rer": 0.024210526315789682,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8955156950672645,
+        "rer": 0.2947165657677483,
+        "best": true
+      },
+      "dbrd": {
+        "score": 0.9532374100719425,
+        "rer": 0.3048128342245986,
+        "best": true
+      },
+      "dalc": {
+        "score": 0.5548340150187895,
+        "rer": -0.08047981535527815,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.8270975477047402,
+        "rer": 0.41737879414892787,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RobBERT<sub>2023&nbsp;large&nbsp;v2</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "large",
+    "model_id": "FremyCompany/roberta-large-nl-oscar23",
+    "rer": 0.18590131015466838,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9814767909256098,
+        "rer": 0.1593152567787045,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8876819027705662,
+        "rer": 0.18970127869019926,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6724267468069121,
+        "rer": 0.040492957746478875,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6547697368421053,
+        "rer": -0.009134615384615463,
+        "best": false
+      },
+      "copanl": {
+        "score": 0.7988,
+        "rer": 0.4705263157894737,
+        "best": true
+      },
+      "sicknl-nli": {
+        "score": 0.8928251121076233,
+        "rer": 0.276554760594386,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9474820143884891,
+        "rer": 0.21925133689839282,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6558902809679255,
+        "rer": 0.1647978097485917,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.7511929573804663,
+        "rer": 0.1616066905304041,
+        "best": false
+      }
+    }
+  },
+  {
     "name": "mBERT<sub>cased base</sub>",
     "lang": "multilingual",
     "type": "bert",
@@ -420,7 +530,7 @@
       "sicknl-nli": {
         "score": 0.8891561353444761,
         "rer": 0.25178866263070976,
-        "best": true
+        "best": false
       },
       "dbrd": {
         "score": 0.9349820143884893,
@@ -480,7 +590,7 @@
       "dbrd": {
         "score": 0.941636690647482,
         "rer": 0.1323529411764689,
-        "best": true
+        "best": false
       },
       "dalc": {
         "score": 0.6661645832328288,
@@ -800,7 +910,7 @@
       "copanl": {
         "score": 0.7544000000000001,
         "rer": 0.35368421052631616,
-        "best": true
+        "best": false
       },
       "sicknl-nli": {
         "score": 0.8874847125968202,
