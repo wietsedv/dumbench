@@ -62,7 +62,7 @@ function renderScore(task) {
       </tr>
     </thead>
     <tbody>
-      <tr v-for="row, i in table.sort((a, b) => a.rer < b.rer)" :class="{ 'border-y-2': row.lang == 'dutch' && row.type == 'bert' && row.size == 'base' }">
+      <tr v-for="row, i in table.sort((a, b) => a.rer < b.rer ? 1 : -1)" :class="{ 'border-y-2': row.lang == 'dutch' && row.type == 'bert' && row.size == 'base' }">
         <td class="font-medium"><a :href="'https://huggingface.co/' + row.model_id" target="_blank" v-html="renderName(row)" class="hover:text-blue-700" /></td>
         <td class="text-right font-mono text-sm border-x-2" :class="{ 'text-gray-500': row.rer < 0, 'font-semibold': i == 0 }">
           {{ (row.rer * 100).toFixed(1) }}
