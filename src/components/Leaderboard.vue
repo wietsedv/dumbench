@@ -43,8 +43,8 @@ function renderScore(task) {
         <th class="border-x-2" title="Pronoun Resolution (DPR)">PR</th>
         <th class="border-x-2" title="Causal Reasoning (COPA-NL)">CR</th>
         <th class="border-x-2" title="Natural Language Inference (SICK-NL)">NLI</th>
-        <th class="border-x-2" title="Abusive Language Detection (DALC)">SA</th>
-        <th class="border-x-2" title="Sentiment Analysis (DBRD)">ALD</th>
+        <th class="border-x-2" title="Sentiment Analysis (DBRD)">SA</th>
+        <th class="border-x-2" title="Abusive Language Detection (DALC)">ALD</th>
         <th class="" title="Question Answering (SQuAD-NL)">QA</th>
       </tr>
       <tr class="border-b-black">
