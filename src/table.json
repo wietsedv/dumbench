@@ -220,7 +220,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2023&nbsp;base</sub>",
+    "name": "Tik-to-Tok<sub>base</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "base",
@@ -275,7 +275,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2023&nbsp;large</sub>",
+    "name": "Tik-to-Tok<sub>large</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "large",
@@ -330,7 +330,7 @@
     }
   },
   {
-    "name": "RobBERT<sub>2023&nbsp;large&nbsp;v2</sub>",
+    "name": "RobBERT<sub>2023&nbsp;large</sub>",
     "lang": "dutch",
     "type": "roberta",
     "size": "large",
