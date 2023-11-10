@@ -135,7 +135,7 @@
       "dpr": {
         "score": 0.6583881578947368,
         "rer": 0.0014423076923074651,
-        "best": true
+        "best": false
       },
       "copanl": {
         "score": 0.5811999999999999,
@@ -270,6 +270,61 @@
       "squadnl": {
         "score": 0.7559410626627069,
         "rer": 0.1776061560574912,
+        "best": false
+      }
+    }
+  },
+  {
+    "name": "RobBERT<sub>2023&nbsp;base</sub>",
+    "lang": "dutch",
+    "type": "roberta",
+    "size": "base",
+    "model_id": "FremyCompany/roberta-base-nl-oscar23",
+    "rer": 0.044904621872546374,
+    "tasks": {
+      "lassy-pos": {
+        "score": 0.9799130003854414,
+        "rer": 0.0883418717980754,
+        "best": false
+      },
+      "sonar-ne": {
+        "score": 0.8704526694128809,
+        "rer": 0.06540407188867536,
+        "best": false
+      },
+      "wicnl": {
+        "score": 0.6724267468069121,
+        "rer": 0.040492957746478875,
+        "best": false
+      },
+      "dpr": {
+        "score": 0.6876644736842105,
+        "rer": 0.08701923076923046,
+        "best": true
+      },
+      "copanl": {
+        "score": 0.6300000000000001,
+        "rer": 0.026315789473684847,
+        "best": false
+      },
+      "sicknl-nli": {
+        "score": 0.8633509987770077,
+        "rer": 0.07760044028618573,
+        "best": false
+      },
+      "dbrd": {
+        "score": 0.9332733812949641,
+        "rer": 0.00802139037433025,
+        "best": false
+      },
+      "dalc": {
+        "score": 0.6169388000992168,
+        "rer": 0.07025714339778455,
+        "best": false
+      },
+      "squadnl": {
+        "score": 0.6856319003130976,
+        "rer": -0.059311298881528085,
         "best": false
       }
     }
