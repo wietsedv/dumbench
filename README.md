@@ -1,6 +1,6 @@
-# Dumbench.nl
+# Dumbench
 
-Source code of the [dumbench.nl](https://dumbench.nl) website.
+Source code of the [wietsedv.github.io/dumbench](https://wietsedv.github.io/dumbench) website.
 
 ### Deployment
 
